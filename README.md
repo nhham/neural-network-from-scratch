@@ -5,9 +5,9 @@ I built this project to understand how Neural Networks actually work under the h
 It uses a Feedforward Neural Network to recognize handwritten digits (0-9) drawn on an HTML5 canvas in real-time.
 
 ## Screenshots
-![Homescreen](homescreen.png)
-![Training](training.png)
-![Result](confidence_result.png)
+![Homescreen](screenshots/homescreen.png)
+![Training](screenshots/training.png)
+![Result](screenshots/confidence_result.png)
 
 ## What it does
 * **No Magic Libraries:** The math (Matrix multiplication, Sigmoid, Backpropagation) is all written.
