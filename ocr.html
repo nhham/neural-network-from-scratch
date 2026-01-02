@@ -1,0 +1,34 @@
+<html>
+<head>
+    <script src="ocr.js"></script>
+    <link rel="stylesheet" type="text/css" href="ocr.css">
+    <title>AI Digit Recognizer</title>
+</head>
+<body onload="ocrDemo.onLoadFunction()">
+    <div id="main-container">
+        <h1>Handwritten Optic Digit Recognition </h1>
+        <p class="subtitle">Powered by a custom Python Neural Network built from scratch (NumPy)</p>
+        
+        <div class="instructions">
+            <h3>How to use:</h3>
+            <ol>
+                <li>Draw a digit (0-9) in the box below.</li>
+                <li>Type the number in the "Target Digit" box to teach the AI.</li>
+                <li>Click <b>Train</b> to update the "brain". The more you train, the more accurate! </li>
+                <li>Click <b>Test</b> to see if the AI can recognize it!</li>
+            </ol>
+        </div>
+
+        <canvas id="canvas" width="200" height="200"></canvas>
+        
+        <form name="input">
+            <p>Target Digit: <input id="digit" type="text" placeholder="?"> </p>
+            <input type="button" value="Train" onclick="ocrDemo.train()">
+            <input type="button" value="Test" onclick="ocrDemo.test()">
+            <input type="button" value="Reset" onclick="ocrDemo.resetCanvas();"/>
+        </form> 
+        
+        <p id="footer">Created by Nathaniel Ham (Built with: Python, JavaScript, NumPy) </p>
+    </div>
+</body>
+</html>

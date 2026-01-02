@@ -1,0 +1,86 @@
+body {
+    background-color: #f4f8f0; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    color: #3b4d3b; 
+}
+
+#main-container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(85, 107, 47, 0.2); 
+    text-align: center;
+    border: 1px solid #cce0cc;
+}
+
+h1 {
+    color: #556b2f; 
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    color: #788c64;
+    font-size: 16px;
+    margin-top: -15px;
+    margin-bottom: 25px;
+}
+
+canvas {
+    border: 3px solid #556b2f; 
+    cursor: crosshair;
+    background-color: #ffffff;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+
+.instructions {
+    text-align: left;
+    background: #f1f7ec; 
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #2f3f2f;
+    border-left: 5px solid #556b2f;
+}
+
+
+input[type="button"] {
+    background-color: #556b2f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="button"]:hover {
+    background-color: #6b8e23; 
+}
+
+
+input[type="button"][value="Reset"] {
+    background-color: #8fbc8f; 
+}
+input[type="button"][value="Reset"]:hover {
+    background-color: #7aaa7a;
+}
+
+input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    width: 70px;
+    text-align: center;
+    border: 2px solid #556b2f;
+    border-radius: 6px;
+    color: #333;
+    outline: none;
+}
