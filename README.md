@@ -1,6 +1,6 @@
 # Handwritten Digit Recognition (From Scratch)
 
-I built this project to understand how Neural Networks actually work under the hood. Instead of using libraries like TensorFlow or PyTorch that do the heavy lifting for you, I built the engine entirely from scratch using Python and NumPy.
+I built this project for fun just to understand how Neural Networks actually work under the hood. Instead of using libraries like TensorFlow or PyTorch that do the heavy lifting for you, I built the engine entirely from scratch using Python and NumPy.
 
 It uses a Feedforward Neural Network to recognize handwritten digits (0-9) drawn on an HTML5 canvas in real-time.
 
